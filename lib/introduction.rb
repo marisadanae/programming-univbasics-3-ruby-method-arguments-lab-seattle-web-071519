@@ -8,8 +8,9 @@ def introduction_with_language(name, language)
 end
 introduction_with_language("Marisa", "Javascript")
 
-def introduction_with_language_optional(name, language)
-  language = "Ruby"
-  puts "Hi, my name is #{name} and I am learning to program in #{language}."
+#Takes two arguments(x, y) & default argument is set to Ruby, but still accepts a name 
+
+def introduction_with_language_optional(name)
+  puts "Hi, my name is #{name} and I am learning to program in Ruby."
 end
-introduction_with_language_optional("Marisa", "Javascript")
+introduction_with_language_optional("Marisa")
